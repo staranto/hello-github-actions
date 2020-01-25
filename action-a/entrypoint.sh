@@ -1,3 +1,5 @@
-#! /bin/sh
+#! /bin/bash
 
-sh -c "echo Hello $MY_NAME"
+echo Hello $MY_NAME
+echo $PWD
+ls -lta
