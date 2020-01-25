@@ -1,3 +1,3 @@
-#! /bin/bash
+#! /bin/sh
 
-echo Hello World
+sh -c "echo Hello $_MY_NAME"
