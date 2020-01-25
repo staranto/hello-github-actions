@@ -1,3 +1,3 @@
-#! /bin/sh
+#! /bin/bash
 
-sh -c "echo Hello $MY_NAME"
+find . -type f \( -name "*.sh" -or -name "*.bash" \)
