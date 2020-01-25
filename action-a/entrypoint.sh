@@ -2,3 +2,5 @@
 
 pwd
 find . -type f \( -name "*.sh" -or -name "*.bash" \)
+
+shellcheck entrypoint.sh
