@@ -1,3 +1,3 @@
 #! /bin/sh
 
-sh -c "echo Hello $_MY_NAME"
+sh -c "echo Hello $lMY_NAME"
