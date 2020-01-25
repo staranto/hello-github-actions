@@ -9,6 +9,8 @@ LABEL "repository"="http://github.com/staranto/hello-github-actions"
 LABEL "homepage"="http://github.com/actions"
 LABEL "maintainer"="Steve Taranto <staranto@gmail.com>"
 
+RUN apt-get update && apt-get -y install shellcheck tree
+
 ADD entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
